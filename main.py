@@ -19,7 +19,7 @@ allChars = characters.all(nameStartsWith=x)["data"]["results"]
 
 for char in allChars:
     print(char["name"], "=", char["id"])
-    #get every item in char sub comics sub 
+
     for comics in char["comics"]["items"]:
         print(comics["name"])
     print("-----------------------------")
