@@ -7,11 +7,11 @@ from marvel import Marvel
 m = Marvel(PUBLIC_KEY, PRIVATE_KEY)
 
 characters = m.characters
-comics = m.comics
-creators = m.creators
-events = m.events
-series = m.series
-stories = m.stories
+#comics = m.comics
+#creators = m.creators
+#events = m.events
+#series = m.series
+#stories = m.stories
 
 x = input("Type the name of a Marvel character: ")
 
